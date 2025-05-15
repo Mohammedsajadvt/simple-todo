@@ -4,7 +4,6 @@ import { useState } from "react";
 function App() {
   const [toDos, setToDos] = useState([]);
   const [toDO, setToDo] = useState("");
-  const [showCompleted, setShowCompleted] = useState(false); // new state
 
   return (
     <div className="app">
